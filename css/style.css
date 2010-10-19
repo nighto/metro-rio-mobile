@@ -1,0 +1,29 @@
+img.ticket {
+	float:left;
+	margin-right:5px;
+}
+
+/* O padrão é: background:-moz-linear-gradient(center top , #cor-clara, #cor-escura) repeat scroll 0 0 #cor-escura !important; */
+li.linha1 {
+	background:-moz-linear-gradient(center top , #FFC697, #F4760E) repeat scroll 0 0 #F4760E !important;
+}
+
+li.linha2 {
+	background:-moz-linear-gradient(center top , #A6FDD0, #05A651) repeat scroll 0 0 #05A651 !important;
+}
+
+li.metronasuperficie {
+	background:-moz-linear-gradient(center top , #B5E7FB, #06ADEF) repeat scroll 0 0 #06ADEF !important;
+}
+
+li.barraexpresso {
+	background:-moz-linear-gradient(center top , #FFE29C, #F8B104) repeat scroll 0 0 #F8B104 !important;
+}
+
+li.onibusexpresso {
+	background:-moz-linear-gradient(center top , #F4EDFD, #937CB0) repeat scroll 0 0 #937CB0 !important;
+}
+
+li.onibusintermunicipal {
+	background:-moz-linear-gradient(center top , #F6E8E8, #A3241E) repeat scroll 0 0 #A3241E !important;
+}

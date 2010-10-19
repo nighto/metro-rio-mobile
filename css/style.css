@@ -3,6 +3,20 @@ img.ticket {
 	margin-right:5px;
 }
 
+/* Botões de navegar na linha */
+div.ui-grid-b div.ui-block-a {
+	text-align:left;
+}
+
+div.ui-grid-b div.ui-block-b {
+	text-align:center;
+	padding-top:7px;
+}
+
+div.ui-grid-b div.ui-block-c {
+	text-align:right;
+}
+
 /* O padrão é: background:-moz-linear-gradient(center top , #cor-clara, #cor-escura) repeat scroll 0 0 #cor-escura !important; */
 li.linha1 {
 	background:-moz-linear-gradient(center top , #FFC697, #F4760E) repeat scroll 0 0 #F4760E !important;

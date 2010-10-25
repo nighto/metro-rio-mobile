@@ -9,6 +9,27 @@ div.ui-grid-a div.ui-block-b { /* 2nd block of 2-block grid */
 	text-align:right;
 }
 
+.bicycle, .wheelchair {
+	padding:0 0 0 38px;
+	height:32px;
+}
+
+.bicycle.yes {
+	background:url('../img/bicycle-yes.png') no-repeat;
+}
+
+.bicycle.no {
+	background:url('../img/bicycle-no.png') no-repeat;
+}
+
+.wheelchair.yes {
+	background:url('../img/wheelchair-yes.png') no-repeat;
+}
+
+.wheelchair.no {
+	background:url('../img/wheelchair-no.png') no-repeat;
+}
+
 /* O padrão é: background:-moz-linear-gradient(center top , #cor-clara, #cor-escura) repeat scroll 0 0 #cor-escura !important; */
 li.linha1 {
 	background:-moz-linear-gradient(center top , #FFC697, #F4760E) repeat scroll 0 0 #F4760E !important;

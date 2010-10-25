@@ -19,9 +19,13 @@
 	<div data-role="page" id="first">
 		<div data-role="header">
 			<h1>Metrô Rio Mobile</h1>
-		</div>
+		</div><!--/header-->
+
 		<div data-role="content">
 			<ul data-role="listview">
+				<li>
+					<a href="#maps">Mapas</a>
+				</li>
 				<li>
 					<a href="stations.html" rel="external">Estações</a>
 				</li>
@@ -32,18 +36,19 @@
 					<a href="#about">Sobre</a>
 				</li>
 			</ul>
-		</div>
+		</div><!--/content-->
+
 		<div data-role="footer">
 			<h4>
 				<a href="http://nighto.net/" data-transition="pop" data-role="button" data-theme="b">Nighto</a>
 			</h4>
-		</div>
-	</div>
+		</div><!--/footer-->
+	</div><!--/page-->
 
 	<div data-role="page" id="about">
 		<div data-role="header">
 			<h1>Sobre o Metrô Rio Mobile</h1>
-		</div>
+		</div><!--/header-->
 
 		<div data-role="content">
 			<p>O Metrô Rio Mobile é um <em>web app</em> criado para visualizar mais facilmente informações sobre o <a href="http://www.metrorio.com.br/">Metrô Rio</a>.</p>
@@ -61,19 +66,42 @@
 					<li><a href="http://www.openclipart.org/detail/47305">Ícones de acessibilidade modificados de wheelchair symbol - OpenClipArt</a></li>
 				</ul>
 			</div>
-		</div>
+		</div><!--/content-->
 
 		<div data-role="footer">
 			<h4>
 				<a href="http://nighto.net/" data-transition="pop" data-role="button" data-theme="b">Nighto</a>
 			</h4>
-		</div>
-	</div>
+		</div><!--/footer-->
+	</div><!--/page-->
+
+	<div data-role="page" id="maps">
+		<div data-role="header">
+			<h1>Mapas</h1>
+		</div><!--/header-->
+		<div data-role="content">
+			<p class="center">
+				<a href="http://www.metrorio.com.br/diagrama_20_08.pdf">
+					<img src="img/map-network-diagram-small.png" alt="Diagrama de Rede" />
+				</a>
+			</p>
+			<p class="center">
+				<a href="http://www.metrorio.com.br/esquematico.pdf">
+					<img src="img/map-schematic-map-small.png" alt="Mapa Esquemático" />
+				</a>
+			</p>
+			<p class="center">
+				<a href="http://www.metrorio.com.br/Mapa_cartografico.pdf">
+					<img src="img/map-cartographic-map-small.png" alt="Mapa Cartográfico" />
+				</a>
+			</p>
+		</div><!--/header-->
+	</div><!--/page-->
 
 	<div data-role="page" id="tickets">
 		<div data-role="header">
 			<h1>Bilhetes</h1>
-		</div>
+		</div><!--/header-->
 
 		<div data-role="content">
 			<div data-role="collapsible" data-state="collapsed">
@@ -120,13 +148,13 @@
 				<h3>Metrô + Oeste Expresso 2 - R$ 4,00</h3>
 				<img src="http://lh4.ggpht.com/_Vjvtmuq0kYc/S1IPzrAPS1I/AAAAAAAAOBY/IEBR6vk710Y/s128/smartcard-metr%C3%B4-rio-metr%C3%B4-oeste-expresso-2-frente.jpg" alt="Oeste Expresso 2" class="ticket" />
 			</div>
-		</div>
+		</div><!--/content-->
 
 		<div data-role="footer">
 			<h4>
 				<a href="http://nighto.net/" data-transition="pop" data-role="button" data-theme="b">Nighto</a>
 			</h4>
-		</div>
-	</div>
+		</div><!--/footer-->
+	</div><!--/page-->
 </body>
 </html>

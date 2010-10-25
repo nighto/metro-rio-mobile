@@ -1,3 +1,7 @@
+.center {
+	text-align:center;
+}
+
 img.ticket {
 	float:left;
 	margin-right:5px;

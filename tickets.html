@@ -26,50 +26,81 @@
 		</div><!--/header-->
 
 		<div data-role="content">
-			<div data-role="collapsible" data-state="collapsed">
-				<h3>Unitário - R$ 2,80</h3>
-				<img src="http://lh5.ggpht.com/_Vjvtmuq0kYc/S00n3XCSNGI/AAAAAAAANkU/uGc8My4wRVw/s128/smartcard-metr%C3%B4-rio-unit%C3%A1rio-frente.jpg" alt="Cartão Unitário" class="ticket" />O bilhete unitário custa <strong>R$ 2,80</strong>.
-			</div>
-			
-			<div data-role="collapsible" data-state="collapsed">
-				<h3>Cartão Pré-Pago - R$ 10,00+</h3>
-				<img src="http://lh3.ggpht.com/_Vjvtmuq0kYc/S00n-tTDmLI/AAAAAAAANlA/zo6UK8EGsqk/s128/smartcard-metr%C3%B4-rio-pr%C3%A9-pago-frente.jpg" alt="Cartão Pré-Pago" class="ticket" />O cartão pré-pago é vendido no valor mínimo de R$ 10,00. Ele pode ser utilizado em todas as estações do Metrô Rio e nos ônibus Metrô na Superfície (Botafogo-Gávea e Ipanema/General Osório-Gávea) e no Metrô Expresso Barra (Ipanema/General Osório-Alvorada), mas <em>não</em> nas outras linhas. Ele pode ser recarregado com valores entre R$ 5,00 e R$ 500,00.
-			</div>
+			<ul data-role="listview">
+				<li>
+					<a href="#">
+						<img src="http://lh5.ggpht.com/_Vjvtmuq0kYc/S00n3XCSNGI/AAAAAAAANkU/uGc8My4wRVw/s128/smartcard-metr%C3%B4-rio-unit%C3%A1rio-frente.jpg" alt="Cartão Unitário" />
+						<h3>Unitário</h3>
+						<p><strong>R$ 2,80</strong></p>
+						<!--<p>O bilhete unitário custa <strong>R$ 2,80</strong> e é válido por 2 dias.</p>-->
+					</a>
+				</li>
 
-			<div data-role="collapsible" data-state="collapsed">
-				<h3>Metrô + Metrô na Superfície - R$ 2,80</h3>
-				<img src="http://lh6.ggpht.com/_Vjvtmuq0kYc/S00oH1-BuVI/AAAAAAAANlc/sVsdRXk2jxc/s128/smartcard-metr%C3%B4-rio-metr%C3%B4-metr%C3%B4-na-superf%C3%ADcie-frente.jpg" alt="Metrô na Superfície" class="ticket" />
-			</div>
+				<li>
+					<a href="#">
+						<img src="http://lh3.ggpht.com/_Vjvtmuq0kYc/S00n-tTDmLI/AAAAAAAANlA/zo6UK8EGsqk/s128/smartcard-metr%C3%B4-rio-pr%C3%A9-pago-frente.jpg" alt="Cartão Pré-Pago" />
+						<h3>Cartão Pré-Pago</h3>
+						<p><strong>R$ 10,00</strong> | recarga mínima <strong>R$ 5</strong></p>
+						<!--<p>O cartão pré-pago é vendido no valor mínimo de R$ 10,00. Ele pode ser utilizado em todas as estações do Metrô Rio e nos ônibus Metrô na Superfície (Botafogo-Gávea e Ipanema/General Osório-Gávea) e no Metrô Expresso Barra (Ipanema/General Osório-Alvorada), mas <em>não</em> nas outras linhas. Ele pode ser recarregado com valores entre R$ 5,00 e R$ 500,00.</p>-->
+					</a>
+				</li>
 
-			<div data-role="collapsible" data-state="collapsed">
-				<h3>Metrô + Expresso (Barra ou Jacarepaguá) - R$ 3,80</h3>
-				<img src="http://lh5.ggpht.com/_Vjvtmuq0kYc/S00oOVauhJI/AAAAAAAANl0/F3Bjj7Sf4co/s128/smartcard-metr%C3%B4-rio-metr%C3%B4-barra-expresso-frente.jpg" alt="Barra Expresso" class="ticket" />
-			</div>
+				<li>
+					<a href="#">
+						<img src="http://lh6.ggpht.com/_Vjvtmuq0kYc/S00oH1-BuVI/AAAAAAAANlc/sVsdRXk2jxc/s128/smartcard-metr%C3%B4-rio-metr%C3%B4-metr%C3%B4-na-superf%C3%ADcie-frente.jpg" alt="Metrô na Superfície" />
+						<h3>Metrô na Superfície</h3>
+						<p><strong>R$ 2,80</strong></p>
+					</a>
+				</li>
 
-			<div data-role="collapsible" data-state="collapsed">
-				<h3>Metrô + Supervia - R$ 3,80</h3>
-				<img src="http://lh6.ggpht.com/_Vjvtmuq0kYc/S00qDo0Gt6I/AAAAAAAANs4/3nxk1N2IN2A/s128/smartcard-supervia-integra%C3%A7%C3%A3o-metr%C3%B4-trem-frente.jpg" alt="Supervia Integração Metrô+Trem" class="ticket" />
-			</div>
+				<li>
+					<a href="#">
+						<img src="http://lh5.ggpht.com/_Vjvtmuq0kYc/S00oOVauhJI/AAAAAAAANl0/F3Bjj7Sf4co/s128/smartcard-metr%C3%B4-rio-metr%C3%B4-barra-expresso-frente.jpg" alt="Barra Expresso" />
+						<h3>Expresso</h3>
+						<p><strong>R$ 3,80</strong></p>
+					</a>
+				</li>
 
-			<div data-role="collapsible" data-state="collapsed">
-				<h3>Metrô + Ônibus Expresso - R$ 3,70</h3>
-				<img src="http://lh5.ggpht.com/_Vjvtmuq0kYc/S00oUmndboI/AAAAAAAANmI/hsBn28GubR0/s128/smartcard-metr%C3%B4-rio-integra%C3%A7%C3%A3o-expressa-metr%C3%B4-%C3%B4nibus-expresso-frente.jpg" alt="Integração Expressa" class="ticket" />
-			</div>
+				<li>
+					<a href="#">
+						<img src="http://lh6.ggpht.com/_Vjvtmuq0kYc/S00qDo0Gt6I/AAAAAAAANs4/3nxk1N2IN2A/s128/smartcard-supervia-integra%C3%A7%C3%A3o-metr%C3%B4-trem-frente.jpg" alt="Supervia Integração Metrô+Trem" />
+						<h3>Metrô + Supervia</h3>
+						<p><strong>R$ 3,80</strong></p>
+					</a>
+				</li>
 
-			<div data-role="collapsible" data-state="collapsed">
-				<h3>Metrô + Ônibus Intermunicipal - R$ 4,20</h3>
-				<img src="http://lh5.ggpht.com/_Vjvtmuq0kYc/S00oaQIWWOI/AAAAAAAANm0/eGmPy61Z8i0/s128/smartcard-metr%C3%B4-rio-metr%C3%B4-integra%C3%A7%C3%A3o-intermunicipal-frente.jpg" alt="Integração Intermunicipal" class="ticket" />
-			</div>
+				<li>
+					<a href="#">
+						<img src="http://lh5.ggpht.com/_Vjvtmuq0kYc/S00oUmndboI/AAAAAAAANmI/hsBn28GubR0/s128/smartcard-metr%C3%B4-rio-integra%C3%A7%C3%A3o-expressa-metr%C3%B4-%C3%B4nibus-expresso-frente.jpg" alt="Integração Expressa" />
+						<h3>Ônibus Expresso</h3>
+						<p><strong>R$ 3,70</strong></p>
+					</a>
+				</li>
 
-			<div data-role="collapsible" data-state="collapsed">
-				<h3>Metrô + Oeste Expresso 1 - R$ 4,40</h3>
-				<img src="http://lh5.ggpht.com/_Vjvtmuq0kYc/S1IPrT3xLXI/AAAAAAAAOBI/OBceP_Ztz1Y/s128/smartcard-metr%C3%B4-rio-metr%C3%B4-oeste-expresso-1-sentido-metr%C3%B4-%C3%B4nibus-expresso-frente.jpg" alt="Oeste Expresso 1" class="ticket" />
-			</div>
+				<li>
+					<a href="#">
+						<img src="http://lh5.ggpht.com/_Vjvtmuq0kYc/S00oaQIWWOI/AAAAAAAANm0/eGmPy61Z8i0/s128/smartcard-metr%C3%B4-rio-metr%C3%B4-integra%C3%A7%C3%A3o-intermunicipal-frente.jpg" alt="Integração Intermunicipal" />
+						<h3>Ônibus Intermunicipal</h3>
+						<p><strong>R$ 4,20</strong></p>
+					</a>
+				</li>
 
-			<div data-role="collapsible" data-state="collapsed">
-				<h3>Metrô + Oeste Expresso 2 - R$ 4,00</h3>
-				<img src="http://lh4.ggpht.com/_Vjvtmuq0kYc/S1IPzrAPS1I/AAAAAAAAOBY/IEBR6vk710Y/s128/smartcard-metr%C3%B4-rio-metr%C3%B4-oeste-expresso-2-frente.jpg" alt="Oeste Expresso 2" class="ticket" />
-			</div>
+				<li>
+					<a href="#">
+						<img src="http://lh5.ggpht.com/_Vjvtmuq0kYc/S1IPrT3xLXI/AAAAAAAAOBI/OBceP_Ztz1Y/s128/smartcard-metr%C3%B4-rio-metr%C3%B4-oeste-expresso-1-sentido-metr%C3%B4-%C3%B4nibus-expresso-frente.jpg" alt="Oeste Expresso 1" />
+						<h3>Oeste Expresso 1</h3>
+						<p><strong>R$ 4,40</strong></p>
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<img src="http://lh4.ggpht.com/_Vjvtmuq0kYc/S1IPzrAPS1I/AAAAAAAAOBY/IEBR6vk710Y/s128/smartcard-metr%C3%B4-rio-metr%C3%B4-oeste-expresso-2-frente.jpg" alt="Oeste Expresso 2" />
+						<h3>Oeste Expresso 2</h3>
+						<p><strong>R$ 4,00</strong></p>
+					</a>
+				</li>
+			</ul>
 		</div><!--/content-->
 	</div><!--/page-->
 </body>

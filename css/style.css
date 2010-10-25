@@ -65,11 +65,6 @@ li.onibusintermunicipal {
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#F6E8E8', EndColorStr='#A3241E')";
 }
 
-img.ticket {
-	float:left;
-	margin-right:5px;
-}
-
 /* Stations */
 .bicycle, .wheelchair, .openstreetmap, .googlemaps {
 	padding:0 0 0 38px;

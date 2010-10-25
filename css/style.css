@@ -2,36 +2,17 @@
 	text-align:center;
 }
 
-img.ticket {
-	float:left;
-	margin-right:5px;
+.ui-block-b h1 { margin: 0; padding: 0; font-size: 16px; display: inline-block; }
+
+div.ui-grid-b div.ui-block-b {
+	text-align:center;
+	padding-top:7px;
 }
 
 /* Buttons to navigate on the subway line */
 div.ui-grid-b div.ui-block-c,  /* 3rd block of 3-block grid */
 div.ui-grid-a div.ui-block-b { /* 2nd block of 2-block grid */
 	text-align:right;
-}
-
-.bicycle, .wheelchair {
-	padding:0 0 0 38px;
-	height:32px;
-}
-
-.bicycle.yes {
-	background:url('../img/bicycle-yes.png') no-repeat;
-}
-
-.bicycle.no {
-	background:url('../img/bicycle-no.png') no-repeat;
-}
-
-.wheelchair.yes {
-	background:url('../img/wheelchair-yes.png') no-repeat;
-}
-
-.wheelchair.no {
-	background:url('../img/wheelchair-no.png') no-repeat;
 }
 
 /* The default is:
@@ -82,4 +63,31 @@ li.onibusintermunicipal {
 	background:-moz-linear-gradient(center top , #F6E8E8, #A3241E);
 	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #F6E8E8),color-stop(1, #A3241E));
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#F6E8E8', EndColorStr='#A3241E')";
+}
+
+img.ticket {
+	float:left;
+	margin-right:5px;
+}
+
+/* Stations */
+.bicycle, .wheelchair {
+	padding:0 0 0 38px;
+	height:32px;
+}
+
+.bicycle.yes {
+	background:url('../img/bicycle-yes.png') no-repeat;
+}
+
+.bicycle.no {
+	background:url('../img/bicycle-no.png') no-repeat;
+}
+
+.wheelchair.yes {
+	background:url('../img/wheelchair-yes.png') no-repeat;
+}
+
+.wheelchair.no {
+	background:url('../img/wheelchair-no.png') no-repeat;
 }

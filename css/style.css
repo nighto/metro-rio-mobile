@@ -3,17 +3,9 @@ img.ticket {
 	margin-right:5px;
 }
 
-/* Botões de navegar na linha */
-div.ui-grid-b div.ui-block-a {
-	text-align:left;
-}
-
-div.ui-grid-b div.ui-block-b {
-	text-align:center;
-	padding-top:7px;
-}
-
-div.ui-grid-b div.ui-block-c {
+/* Buttons to navigate on the subway line */
+div.ui-grid-b div.ui-block-c,  /* 3rd block of 3-block grid */
+div.ui-grid-a div.ui-block-b { /* 2nd block of 2-block grid */
 	text-align:right;
 }
 

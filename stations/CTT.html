@@ -27,10 +27,39 @@
 		</div>
 		
 		<div data-role="content">
-			<p class="googlemaps"><a href="http://maps.google.com.br/?ie=UTF8&ll=-22.925996,-43.176935&z=17">Google Maps</a></p>
-			<p class="openstreetmap"><a href="http://www.opentouchmap.org/?lat=-22.926316435308614&lon=-43.1783779956053&zoom=17">OpenStreetMap</a></p>
+			<div class="ui-grid-a">
+				<div class="ui-block-a">
+					<p class="googlemaps"><a href="http://maps.google.com.br/?ie=UTF8&ll=-22.925996,-43.176935&z=17">GoogleMaps</a></p>
+				</div>
+				<div class="ui-block-b">
+					<p class="openstreetmap"><a href="http://www.opentouchmap.org/?lat=-22.926316435308614&lon=-43.1783779956053&zoom=17">OSM</a></p>
+				</div>
+			</div>
 			<p class="bicycle no">A estação não possui bicicletário.</p>
 			<p class="wheelchair no">A estação não segue as diretrizes de acessibilidade.</p>
+
+			<div data-role="collapsible" data-state="collapsed" id="acessos">
+				<h3>Acessos</h3>
+				<ul data-role="listview">
+					<li>
+						<h4>Acesso Catete</h4>
+						<p class="time">Horário de Funcionamento: Seg-Sáb 5h-0h; Dom 6h-23</p>
+						<p class="escalator up">Com escada rolante para subir.</p>
+					</li>
+					<li>
+						<h4>Acesso Palácio</h4>
+						<p class="time">blabla</p>
+						<p class="escalator no">Sem escada rolante.</p>
+					</li>
+					<li>
+						<h4>Acesso Silveira Martins</h4>
+						<p class="time">blabla</p>
+						<p class="escalator no">Sem escada rolante.</p>
+						<p class="exit-only">Atenção: Apenas saída!</p>
+					</li>
+				</ul>
+			</div><!--/acessos-->
+
 			<p>Localizada entre o Palácio do Catete e o que sobrou do casario antigo da rua que leva o nome do bairro, a Estação Catete, inaugurada em 1981, recebe um fluxo diário de, em média, 20 mil pessoas.</p>
 		</div>
 	</div>

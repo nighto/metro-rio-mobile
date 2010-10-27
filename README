@@ -4,3 +4,10 @@ Metrô Rio Mobile
 Licensed on GNU Affero General Public License (AGPL) v3
 
 Metrô Rio Mobile is a /web app/ created for visualizing information about Metrô Rio easily on cellphones. It's not affilied to the company Metrô Rio in any way.
+
+
+###
+jQuery versioning:
+- js/jquery.js - http://code.jquery.com/jquery-1.4.3.min.js
+- js/jquery-mobile.js - http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.js
+- css/jquery.css - http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.css

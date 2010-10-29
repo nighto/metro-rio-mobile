@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="442.46219"
+   id="svg2"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="wheelchair.svg"
+   sodipodi:version="0.32"
+   width="410.6012"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <metadata
+     id="metadata3">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Wheelchair Symbol</dc:title>
+        <dc:description>symbol depicting an idealized wheelchair driver</dc:description>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>symbol</rdf:li>
+            <rdf:li>wheelchair</rdf:li>
+            <rdf:li>handicapped</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://www.openclipart.org/">
+            <dc:title>Open Clip Art Library</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>mailto:ralf *at* ark -dot- in-berlin.de</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>mailto:ralf@ark.in-berlin.de</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date>2005-08-06</dc:date>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:language>en</dc:language>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     bordercolor="#666666"
+     borderopacity="1.0"
+     fill="#32cd32"
+     id="base"
+     inkscape:current-layer="layer1"
+     inkscape:cx="54.353606"
+     inkscape:cy="156.91936"
+     inkscape:document-units="px"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:window-height="723"
+     inkscape:window-width="1280"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:zoom="0.6556678"
+     pagecolor="#ffffff"
+     showgrid="false"
+     inkscape:window-maximized="1" />
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Ebene 1"
+     transform="translate(-209.035, -259.147)">
+    <path
+       style="fill:#a0a0a0;stroke:none"
+       d=""
+       id="path3149"
+       inkscape:connector-curvature="0"
+       transform="translate(209.035,259.147)" />
+    <g
+       id="g3927">
+      <path
+         transform="translate(209.035,259.147)"
+         inkscape:connector-curvature="0"
+         id="path3155"
+         d="M 134.35606,438.79602 C 92.699646,430.8628 66.227766,417.28654 41.486937,391.1676 23.575566,372.25851 11.513544,351.34634 5.5092903,328.79241 1.062043,312.08711 1.1039139,275.01354 5.5896791,257.61453 14.163941,224.3574 38.425167,190.43698 67.428542,171.15558 85.528577,159.1227 86.484386,159.7021 86.532807,182.73643 l 0.03303,15.71195 -14.559112,14.58696 c -23.152743,23.19703 -32.821068,46.87134 -32.867211,80.48016 -0.04491,32.70688 12.427816,61.35595 36.57266,84.00516 53.818338,50.48458 131.936798,41.19203 181.861788,-21.63331 7.1287,-8.97072 14.03225,-16.31041 15.34121,-16.31041 1.30894,0 5.13988,5.51868 8.5132,12.26373 8.62456,17.24517 7.19574,21.40943 -14.48915,42.22777 -39.24847,37.68011 -86.27876,53.54601 -132.58316,44.72758 l 0,0 z"
+         style="fill:#000000;stroke:none" />
+      <path
+         transform="translate(209.035,259.147)"
+         inkscape:connector-curvature="0"
+         id="path3157"
+         d="m 302.12634,324.54104 -35.31025,-72.19389 -8.70194,-1.26906 c -4.78607,-0.698 -37.91181,-0.96875 -73.61277,-0.60167 l -64.91083,0.66739 -1.41402,-67.75504 c -0.77771,-37.26527 -1.41402,-79.70589 -1.41402,-94.312489 0,-22.744501 -0.61819,-27.571375 -4.30574,-33.619522 -9.4465,-15.493672 -2.67903,-38.906568 14.05578,-48.6277645 12.15706,-7.06199466 29.75673,-5.93264435 40.98268,2.6298121 10.77022,8.2148444 16.99068,22.4518804 15.1558,34.6877304 -1.38722,9.250664 -7.96068,17.012964 -25.51626,30.131014 -6.2883,4.698806 -6.41192,5.997703 -6.00424,63.089489 l 0.14247,19.95138 50.68729,0 50.68728,0 0,15.09834 0,15.09834 -49.5257,0 -49.52569,0 -2.42708,9.01348 c -1.33489,4.95742 -1.79814,13.20759 -1.02943,18.3337 l 1.39765,9.32021 68.58079,0 68.58079,0 31.91854,66.55946 31.91856,66.55943 8.22594,-1.84825 c 4.52429,-1.01653 15.73916,-4.83281 24.92195,-8.48061 15.00018,-5.95869 16.95134,-6.28313 19.20998,-3.19427 3.29433,4.50528 5.86021,20.81347 3.62619,23.04748 -1.3791,1.37911 -68.72369,29.90921 -70.59994,29.90921 -0.26592,0 -16.37314,-32.48725 -35.79378,-72.1939 z"
+         style="fill:#000000" />
+    </g>
+  </g>
+</svg>

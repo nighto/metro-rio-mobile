@@ -1,0 +1,25 @@
+Metrô Rio Mobile
+(C) 2010 Arlindo "Nighto" Pereira - <contato (at) arlindopereira (dot) com> - http://nighto.net
+
+Licensed on GNU Affero General Public License (AGPL) v3
+
+Metrô Rio Mobile is a /web app/ created for visualizing information about Metrô Rio easily on cellphones. It's not affilied to the company Metrô Rio in any way.
+
+
+###
+jQuery versioning:
+- js/jquery.js - http://code.jquery.com/jquery-1.4.3.min.js
+- js/jquery-mobile.js - http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.js
+- css/jquery.css - http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.css
+
+###
+Original photos:
+- Menu icons
+	- Metrô Rio logo: http://en.wikipedia.org/wiki/File:MetroRJ.jpg
+   - Twitter: http://www.flickr.com/photos/mfilej/2397881577/
+	- Maps: http://en.wikipedia.org/wiki/File:Mapa_metro_rio.jpg
+	- Stations: http://en.wikipedia.org/wiki/File:Metro_rio_de_janeiro.jpg
+	- Integrations: http://www.flickr.com/photos/novaneiabus/345496749/
+	- Tickets: Montagem com fotos de http://picasaweb.google.com/arlindosaraivapereira/BilhetesSmartcardsEAfins
+	- Technical Informations: extinto site da Rio Trilhos, link de http://www.skyscrapercity.com/showthread.php?t=560674
+	- About: http://uniriotec.com/

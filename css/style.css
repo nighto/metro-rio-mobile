@@ -1,0 +1,105 @@
+.center {
+	text-align:center;
+}
+
+.right {
+	text-align:right;
+}
+
+.ui-block-b h1 { margin: 0; padding: 0; font-size: 16px; display: inline-block; }
+
+div.ui-grid-b div.ui-block-b {
+	text-align:center;
+	padding-top:7px;
+}
+
+/* Buttons to navigate on the subway line */
+div.ui-grid-b div.ui-block-c,  /* 3rd block of 3-block grid */
+div.ui-grid-a div.ui-block-b { /* 2nd block of 2-block grid */
+	text-align:right;
+}
+
+/* The default is:
+
+	background:#darker-color;
+	background-image:-moz-linear-gradient(top, #lighter-color, #darker-color);
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #lighter-color),color-stop(1, #darker-color));
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#lighter-color', EndColorStr='#darker-color')";
+
+ */
+.linha1 {
+	background:#F4760E;
+	background-image:-moz-linear-gradient(top, #FFC697, #F4760E);
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #FFC697),color-stop(1, #F4760E));
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFC697', EndColorStr='#F4760E')";
+}
+
+li.linha2 {
+	background:#05A651;
+	background:-moz-linear-gradient(center top , #A6FDD0, #05A651);
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #A6FDD0),color-stop(1, #05A651));
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#A6FDD0', EndColorStr='#05A651')";
+}
+
+li.metronasuperficie {
+	background:#06ADEF;
+	background:-moz-linear-gradient(center top , #B5E7FB, #06ADEF);
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #B5E7FB),color-stop(1, #06ADEF));
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#B5E7FB', EndColorStr='#06ADEF')";
+}
+
+li.barraexpresso {
+	background:#F8B104;
+	background:-moz-linear-gradient(center top , #FFE29C, #F8B104);
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #FFE29C),color-stop(1, #F8B104));
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFE29C', EndColorStr='#F8B104')";
+}
+
+li.onibusexpresso {
+	background:#937CB0;
+	background:-moz-linear-gradient(center top , #F4EDFD, #937CB0);
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #F4EDFD),color-stop(1, #937CB0));
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#F4EDFD', EndColorStr='#937CB0')";
+}
+
+li.onibusintermunicipal {
+	background:#A3241E;
+	background:-moz-linear-gradient(center top , #F6E8E8, #A3241E);
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #F6E8E8),color-stop(1, #A3241E));
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#F6E8E8', EndColorStr='#A3241E')";
+}
+
+/* Stations */
+.bicycle, .wheelchair, .googlemaps {
+	padding:0 0 0 38px;
+	height:32px;
+	background-repeat:no-repeat !important;
+}
+
+.googlemaps {
+	background:url('../img/googlemaps.png');
+}
+
+.openstreetmap {
+	background:url('../img/openstreetmap.png');
+	padding:0 38px 0 0;
+	height:32px;
+	background-position:top right;
+	background-repeat:no-repeat;
+}
+
+.bicycle.yes {
+	background:url('../img/bicycle-yes.png');
+}
+
+.bicycle.no {
+	background:url('../img/bicycle-no.png');
+}
+
+.wheelchair.yes {
+	background:url('../img/wheelchair-yes.png');
+}
+
+.wheelchair.no {
+	background:url('../img/wheelchair-no.png');
+}

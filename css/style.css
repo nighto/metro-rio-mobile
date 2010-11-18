@@ -103,3 +103,8 @@ div.ui-grid-a div.ui-block-b { /* 2nd block of 2-block grid */
 .wheelchair.no {
 	background:url('../img/wheelchair-no.png');
 }
+
+ul.access li img {
+	float:left;
+	margin-right:10px;
+}
